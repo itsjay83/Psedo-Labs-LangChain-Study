@@ -17,7 +17,9 @@
 3. **LangServe** : LangChain 체인을 REST API로 배포하기 위한 라이브러리이다.
 4. **LangSmith** : 모든 LLM 프레임워크 위에 구축된 체인을 디버깅, 테스트, 평가, 모니터링할 수 있는 개발자 플랫폼으로, LangChain과 원활하게 통합된다.
 
-![alt text](https://python.langchain.com/svg/langchain_stack_dark.svg)
+<!-- ![alt text](https://python.langchain.com/svg/langchain_stack_dark.svg){width=100 height=100} -->
+
+<img src="https://python.langchain.com/svg/langchain_stack_dark.svg" width="80%" />
 
 이러한 제품들을 사용하여 전체 애플리케이션 수명주기를 간소화 할 수 있다. :
 
@@ -29,8 +31,8 @@
 
 LangChain 패키지의 주요 가치 제안은 다음과 같습니다:
 
-1. **컴포넌트 (Components)** : 언어 모델을 다루기 위한 조립 가능한 도구와 통합입니다. 컴포넌트는 모듈식이며 사용하기 쉬우며, LangChain 프레임워크의 나머지 부분을 사용하고 있지 않더라도 마찬가지입니다.
-현장에서 사용할 수 있는 체인: 더 높은 수준의 작업을 수행하기 위한 컴포넌트의 조립품이다.
+1. **컴포넌트 (Components)** : 언어 모델을 다루기 위한 조립 가능한 도구와 통합으로, 컴포넌트는 모듈식이며 사용하기 쉬우며, LangChain 프레임워크의 나머지 부분을 사용하고 있지 않더라도 마찬가지 이다.
+2. **현장에서 사용할 수 있는 체인(Off-the-shelf chains)** : 더 높은 수준의 작업을 수행하기 위한 컴포넌트의 조립품이다.
 현장에서 사용할 수 있는 체인은 시작하기 쉽게 만들어 줍니다. 컴포넌트는 기존 체인을 사용자 정의하고 새로운 체인을 구축하는 것을 쉽게 만든다.
 
 LangChain 라이브러리 자체는 여러 다른 패키지로 구성되어 있다.
@@ -38,3 +40,4 @@ LangChain 라이브러리 자체는 여러 다른 패키지로 구성되어 있�
 langchain-core: 기본 추상화와 LangChain 표현 언어.
 langchain-community: 제3자 통합.
 langchain: 어플리케이션의 인지 아키텍처를 구성하는 체인, 에이전트, 검색 전략.
+
