@@ -40,4 +40,3 @@ LangChain 라이브러리 자체는 여러 다른 패키지로 구성되어 있�
 langchain-core: 기본 추상화와 LangChain 표현 언어.
 langchain-community: 제3자 통합.
 langchain: 어플리케이션의 인지 아키텍처를 구성하는 체인, 에이전트, 검색 전략.
-
